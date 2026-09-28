@@ -48,14 +48,4 @@ The project is organized into clear modules to separate concerns and make the ba
 - utils/: Stores helper functions and supporting utilities.
 - data/: Contains sample JSON data used for products, orders, and users.
 
-## Project Flow Diagram
 
-```mermaid
-flowchart LR
-    A[User] --> B[FastAPI API]
-    B --> C[Authentication]
-    C --> D[Chat / Agent Service]
-    D --> E[Agent Logic]
-    E --> F[Tools / Repositories]
-    F --> G[MongoDB / Data Store]
-    F --> H[Response to User]
